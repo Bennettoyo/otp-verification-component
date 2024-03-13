@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+
+  .otp-container {
+    height: 60%;
+    width: 50%;
+    background-color: #555555;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+    font-size: 16px;
+
+    .hint {
+      font-size: 12px;
+      color: white;
+    }
+
+    .otp-text {
+      text-align: center;
+    }
+
+    .otp {
+      display: flex;
+      gap: 15px;
+      height: 200px;
+
+      input {
+        background: #333333;
+        color: white;
+        width: 20%;
+        height: 180px;
+        margin: auto;
+        font-size: 130px;
+        text-align: center;
+      }
+    }
+  }
+
+  button {
+    background-color: #333333;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    font-family: monospace;
+    cursor: pointer;
+  }
+}
